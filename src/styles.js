@@ -1,0 +1,30 @@
+// Nguyen Ngoc Huy Hoang - 23520532
+import { StyleSheet } from 'react-native';
+export const colors = { ink: '#17392F', muted: '#697B72', green: '#236247', cream: '#F5F6F0', line: '#E4E9E2' };
+export const styles = StyleSheet.create({
+  safe: { flex: 1, backgroundColor: colors.cream },
+  app: { flex: 1, width: '100%', maxWidth: 700, alignSelf: 'center' },
+  header: { paddingHorizontal: 22, paddingTop: 16, paddingBottom: 17, borderBottomWidth: 1, borderBottomColor: colors.line },
+  brandRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 14 },
+  brand: { color: colors.green, fontSize: 13, fontWeight: '800', letterSpacing: 2 },
+  lab: { fontSize: 10, fontWeight: '700', color: colors.muted, letterSpacing: 1 },
+  title: { fontSize: 29, fontWeight: '800', letterSpacing: -1, color: colors.ink },
+  subtitle: { fontSize: 13, lineHeight: 20, color: colors.muted, marginTop: 5 },
+  flex: { flex: 1 },
+  feed: { padding: 16, gap: 16, paddingBottom: 24 },
+  post: { backgroundColor: '#FFFFFF', borderRadius: 20, borderWidth: 1, borderColor: colors.line, overflow: 'hidden' },
+  postHeader: { flexDirection: 'row', alignItems: 'center', gap: 10, padding: 16, paddingBottom: 10 },
+  avatar: { width: 42, height: 42, borderRadius: 21 },
+  name: { fontSize: 15, fontWeight: '700', color: colors.ink },
+  meta: { fontSize: 11, color: colors.muted, marginTop: 3 },
+  postText: { fontSize: 14, lineHeight: 22, color: colors.ink, paddingHorizontal: 16, paddingBottom: 14 },
+  postImage: { width: '100%', aspectRatio: 1.6, backgroundColor: '#DDE8DC' },
+  counts: { flexDirection: 'row', justifyContent: 'space-between', flexWrap: 'wrap', gap: 5, padding: 14 },
+  count: { fontSize: 11, color: colors.muted },
+  actions: { flexDirection: 'row', borderTopWidth: 1, borderTopColor: colors.line, marginHorizontal: 12, paddingVertical: 6 },
+  action: { flex: 1, minHeight: 46, alignItems: 'center', justifyContent: 'center', borderRadius: 10 },
+  actionText: { fontSize: 12, fontWeight: '600', color: colors.muted },
+  liked: { backgroundColor: '#E7F2E9' },
+  likedText: { color: colors.green },
+  pressed: { opacity: 0.65 },
+});
